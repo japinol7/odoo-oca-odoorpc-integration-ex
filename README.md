@@ -26,9 +26,9 @@
 
 
 ### Small programs that can be useful as examples of usage
+* call_method_message_post_on_move
+* call_method_message_post_on_sale
 * call_model_method_get_invoice_types
-* call_model_method_message_post_on_move
-* call_model_method_message_post_on_sale
 * call_upgrade_modules_immediately
 * count_out_invs
 * count_sale_orders
