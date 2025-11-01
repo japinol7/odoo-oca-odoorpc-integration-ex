@@ -2,7 +2,7 @@
     Odoo integration examples in Python using OdooRPC from the OCA.
 <br>
 
-	version: 0.0.1
+	version: 0.0.2
 	author: Joan A. Pinol
 	author_nickname: japinol
 	author_gitHub: japinol7

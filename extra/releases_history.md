@@ -1,6 +1,13 @@
 # Release History
 
-## v0.0.1
+## v0.0.2
+
+### New features and improvements:
+
+* Improve some scripts' naming.
+
+
+## v0.0.2
 
 ### New features and improvements:
 
