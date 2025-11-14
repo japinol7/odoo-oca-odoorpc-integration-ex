@@ -1,0 +1,36 @@
+"""Example xt_erp_import_sale_order_server_data_create."""
+
+import getpass
+
+from odoo.res_connection import OdooConnection
+from config import TEST_SERVER_ACCESS_CONFIG
+
+
+def main():
+    odoo = OdooConnection(**TEST_SERVER_ACCESS_CONFIG).odoo
+
+    ext_erp_proxy = input("Enter Proxy url: ")
+    ext_erp_proxy_port = int(input("Enter Proxy Port: "))
+    ext_erp_host_url = input("Enter External Odoo host url: ")
+    ext_erp_dbname = input("Enter External Odoo DB name: ")
+    ext_erp_username = input("Enter External Odoo username: ")
+    ext_erp_password = getpass.getpass('Enter External Odoo user password: ')
+
+    vals = {
+        'url': ext_erp_host_url,
+        'dbname': ext_erp_dbname,
+        'username': ext_erp_username,
+        'password': ext_erp_password,
+        }
+
+    if ext_erp_proxy:
+        vals.update({
+            'proxy_host': ext_erp_proxy,
+            'proxy_port': ext_erp_proxy_port,
+            })
+
+    odoo.env['jap.import.sale.order.from.ext.odoo'].create(vals)
+
+
+if __name__ == '__main__':
+    main()
