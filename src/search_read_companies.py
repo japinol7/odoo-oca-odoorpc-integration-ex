@@ -12,7 +12,7 @@ def main():
     odoo = OdooConnection(**TEST_SERVER_ACCESS_CONFIG).odoo
 
     companies_vals = odoo.env['res.company'].search_read(
-        [ ],
+        [],
         fields=['name'],
         order='id desc',
         limit=15,

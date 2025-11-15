@@ -19,7 +19,7 @@ def main():
         kwargs={
             'domain': [ ],
             'fields': ['company_id', 'amount_untaxed', 'amount_total'],
-            'groupby': 'company_id'
+            'groupby': 'company_id',
             },
         )
 
