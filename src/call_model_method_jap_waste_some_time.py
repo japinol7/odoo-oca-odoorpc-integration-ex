@@ -7,7 +7,7 @@ from odoo.tools.logger.logger import log
 
 
 def main():
-    """Example of usage for the odoo connection that uses jsonrpc or xmlrpc.
+    """Example of usage for the odoo connection that uses jsonrpc.
     Calls a given method on the sale order model to check the timeout behavior.
     The method we call in this example is a custom method created just
     for this example, and it does not exist in Odoo Core.

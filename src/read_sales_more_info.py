@@ -57,7 +57,7 @@ def get_entities_vals_by_id(entities_vals):
 
 
 def main():
-    """Example of usage for the odoo connection that uses jsonrpc or xmlrpc.
+    """Example of usage for the odoo connection that uses jsonrpc.
     Prints some first and second-level info about some sales.
     """
     odoo = OdooConnection(**TEST_SERVER_ACCESS_CONFIG).odoo

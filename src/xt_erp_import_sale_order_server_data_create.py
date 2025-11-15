@@ -8,7 +8,7 @@ from config import TEST_SERVER_ACCESS_CONFIG
 
 
 def main():
-    """Example of usage for the odoo connection that uses jsonrpc or xmlrpc.
+    """Example of usage for the odoo connection that uses jsonrpc.
     The model and fields we use in this example were created just
     for this example, and they do not exist in Odoo Core.
     """

@@ -8,7 +8,7 @@ from config import TEST_SERVER_ACCESS_CONFIG
 
 
 def main():
-    """Example of usage for the odoo connection that uses jsonrpc or xmlrpc.
+    """Example of usage for the odoo connection that uses jsonrpc.
     Gets the aggregated amounts of validated out invoices grouped by company.
     """
     odoo = OdooConnection(**TEST_SERVER_ACCESS_CONFIG).odoo

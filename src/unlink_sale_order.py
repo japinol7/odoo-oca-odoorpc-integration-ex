@@ -6,7 +6,7 @@ from config import TEST_SERVER_ACCESS_CONFIG
 
 
 def main():
-    """Example of usage for the odoo connection that uses jsonrpc or xmlrpc.
+    """Example of usage for the odoo connection that uses jsonrpc.
     Deletes a given sale order.
     """
     odoo = OdooConnection(**TEST_SERVER_ACCESS_CONFIG).odoo
