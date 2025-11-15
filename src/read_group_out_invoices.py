@@ -23,7 +23,7 @@ def main():
                 ],
             'fields': ['company_id', 'amount_untaxed', 'amount_total'],
             'groupby': 'company_id'
-            }
+            },
         )
 
     pp(data)
