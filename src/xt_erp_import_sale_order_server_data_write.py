@@ -1,4 +1,5 @@
 """Example xt_erp_import_sale_order_server_data_write."""
+__author__ = 'Joan A. Pinol  (japinol)'
 
 import getpass
 
@@ -7,6 +8,10 @@ from config import TEST_SERVER_ACCESS_CONFIG
 
 
 def main():
+    """Example of usage for the odoo connection that uses jsonrpc or xmlrpc.
+    The model and fields we use in this example were created just
+    for this example, and they do not exist in Odoo Core.
+    """
     odoo = OdooConnection(**TEST_SERVER_ACCESS_CONFIG).odoo
 
     ext_erp_proxy = input("Enter Proxy url: ")

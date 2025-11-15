@@ -29,6 +29,7 @@
 * call_method_message_post_on_move
 * call_method_message_post_on_sale
 * call_model_method_get_invoice_types
+* call_model_method_jap_waste_some_time
 * call_upgrade_modules_immediately
 * count_out_invs
 * count_sale_orders
@@ -36,6 +37,7 @@
 * create_sale_quotation
 * get_db_list
 * get_server_version
+* read_group_out_invoices
 * read_group_sales
 * read_out_invs
 * read_sales
