@@ -1,5 +1,14 @@
 # Release History
 
+## v0.0.4
+
+### New features and improvements:
+* Add examples of usage:
+    * search_read_products_with_context
+    * xt_erp_import_sale_order_server_data_write_domain
+    * xt_erp_import_sale_order_server_data_write_proxy
+
+
 ## v0.0.3
 
 ### New features and improvements:

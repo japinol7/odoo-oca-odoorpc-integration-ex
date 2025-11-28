@@ -2,7 +2,7 @@
     Odoo integration examples in Python using OdooRPC from the OCA.
 <br>
 
-	version: 0.0.3
+	version: 0.0.4
 	author: Joan A. Pinol
 	author_nickname: japinol
 	author_gitHub: japinol7
@@ -49,6 +49,7 @@
 * search_read_out_invs_and_their_lines
 * search_read_product_various
 * search_read_products
+* search_read_products_with_context
 * search_read_sale_order_various
 * search_read_sale_orders
 * search_read_sale_orders_and_their_lines
@@ -63,5 +64,7 @@
 * xt_erp_import_sale_order_server_data_read
 * xt_erp_import_sale_order_server_data_unlink
 * xt_erp_import_sale_order_server_data_write
+* xt_erp_import_sale_order_server_data_write_domain
+* xt_erp_import_sale_order_server_data_write_proxy
 
 .
