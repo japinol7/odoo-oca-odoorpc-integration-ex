@@ -12,6 +12,10 @@ class OdooConnection:
             self, host, dbname, username, password,
             port, proxy_host=None, proxy_port=None, timeout=15,
         ):
+        if not host or not dbname or not username or not password or not port:
+            log.error("Error. Missing required system parameters")
+            exit(1)
+
         log.info(f"Connecting to {host}:{port} ({dbname}) as {username}")
 
         if proxy_host and proxy_port:

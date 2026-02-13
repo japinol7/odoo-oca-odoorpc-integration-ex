@@ -1,5 +1,11 @@
 # Release History
 
+## v0.0.6
+
+### New features and improvements:
+* Minor improvement to proxy connection using environment variables before the OdooRPC session connection.
+
+
 ## v0.0.5
 
 ### New features and improvements:
